@@ -1,0 +1,156 @@
+h1 {
+  text-align: center;
+  font-family: Courier;
+}
+
+#image {
+  height: 100%;
+  width: 100%;
+}   
+
+#passport {
+  background-color: greenyellow;
+  max-width: 80%;
+  min-width: 800px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin : 10px auto;
+}       
+
+#page-left, #page-right {
+  width: 48%;
+  height: 96%;
+  background-color: white;
+  border: 1px solid black;
+
+}
+
+#page-left {
+  margin: 10px 0px 10px 10px;
+  display: block;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#page-right {
+  margin: 10px 10px 0px 10px;
+  background-color: white;
+  display: flex-wrap;
+  justify-content: space-between;
+}
+
+#selfie {
+  background-color: white;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#photo {
+  background-color: white;
+  width: 49%;
+  height: 98%;
+
+}
+
+#name {
+  background-color: white;
+  width: 49%;
+  height: 98%;
+}
+
+#img-div {
+ width: 100%;
+ max-width: 250px;
+ padding:0;
+ margin:0;
+ border:5px;
+ margin:auto;
+
+}   
+
+#image {
+  margin:0;
+  border:0;
+  padding:0;
+  width:100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 90%;
+  display:block;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color:  white;
+  cursor: pointer;
+}
+
+#pad {
+	width: 100%;
+	height: 10%; 
+}
+
+.readable {
+  font-size: 1.0em;
+  width:50%;
+	max-width: 150px;
+  text-align: center;
+  margin: 50px;
+}
+
+.italic {
+       font-style:italic;	
+}
+
+.red {
+  color: red;
+  border: 2px solid red;
+}
+
+
+
+.blue {
+  color: blue;
+  border: 4px solid blue;
+}
+
+.green {
+  color: green;
+  border: 5px solid green;
+  font-weight: 700;
+}
+
+.rotateLeft20 {
+  border-radius: 10px;
+  transform: rotate(-30deg);
+}
+
+.rotateLeft30 {
+  border-radius: 9px;
+  transform: rotate(-30deg);
+}
+
+.rotateRight10 {
+  border-radius: 29px;
+  transform: rotate(10deg);
+}
+
+.rotateRight60 {
+  border-radius: 20px;
+  transform: rotate(60deg);
+}
